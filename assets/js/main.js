@@ -112,6 +112,9 @@ $('select').niceSelect();
 -----------------------------------*/
 // Hero Slider
 $('.hero-slider').slick({
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
     infinite: true,
     fade: true,
     dots: false,
